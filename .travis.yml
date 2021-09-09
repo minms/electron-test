@@ -20,6 +20,7 @@ script:
   - sudo apt update
   - sudo apt install --install-recommends winehq-stable
   - wine --version
+  - export DISPLAY=:0.0
   - yarn build:win32
 
 branches:
