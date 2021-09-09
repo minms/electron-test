@@ -1799,7 +1799,7 @@ app-builder-bin@3.5.13:
 
 app-builder-lib@22.11.7:
   version "22.11.7"
-  resolved "https://registry.nlark.com/app-builder-lib/download/app-builder-lib-22.11.7.tgz?cache=0&sync_timestamp=1631123290930&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fapp-builder-lib%2Fdownload%2Fapp-builder-lib-22.11.7.tgz#c0ad1119ebfbf4189a8280ad693625f5e684dca6"
+  resolved "https://registry.nlark.com/app-builder-lib/download/app-builder-lib-22.11.7.tgz?cache=0&sync_timestamp=1631165709638&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fapp-builder-lib%2Fdownload%2Fapp-builder-lib-22.11.7.tgz#c0ad1119ebfbf4189a8280ad693625f5e684dca6"
   integrity sha1-wK0RGev79BiagoCtaTYl9eaE3KY=
   dependencies:
     "7zip-bin" "~5.1.1"
@@ -2972,7 +2972,7 @@ dir-glob@^3.0.1:
 
 dmg-builder@22.11.7:
   version "22.11.7"
-  resolved "https://registry.nlark.com/dmg-builder/download/dmg-builder-22.11.7.tgz?cache=0&sync_timestamp=1631123290592&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdmg-builder%2Fdownload%2Fdmg-builder-22.11.7.tgz#5956008c18d40ee72c0ea01ffea9590dbf51df89"
+  resolved "https://registry.nlark.com/dmg-builder/download/dmg-builder-22.11.7.tgz?cache=0&sync_timestamp=1631165709505&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdmg-builder%2Fdownload%2Fdmg-builder-22.11.7.tgz#5956008c18d40ee72c0ea01ffea9590dbf51df89"
   integrity sha1-WVYAjBjUDucsDqAf/qlZDb9R34k=
   dependencies:
     app-builder-lib "22.11.7"
@@ -3117,7 +3117,7 @@ ejs@^3.1.6:
 
 electron-builder@^22.4.0:
   version "22.11.7"
-  resolved "https://registry.nlark.com/electron-builder/download/electron-builder-22.11.7.tgz?cache=0&sync_timestamp=1631123291782&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-builder%2Fdownload%2Felectron-builder-22.11.7.tgz#cd97a0d9f6e6d388112e66b4376de431cca4d596"
+  resolved "https://registry.nlark.com/electron-builder/download/electron-builder-22.11.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-builder%2Fdownload%2Felectron-builder-22.11.7.tgz#cd97a0d9f6e6d388112e66b4376de431cca4d596"
   integrity sha1-zZeg2fbm04gRLma0N23kMcyk1ZY=
   dependencies:
     "@types/yargs" "^16.0.2"
@@ -6517,7 +6517,15 @@ source-map-js@^0.6.2:
   resolved "https://registry.npm.taobao.org/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
   integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
 
-source-map-support@^0.5.19, source-map-support@~0.5.12, source-map-support@~0.5.19:
+source-map-support@^0.5.19:
+  version "0.5.20"
+  resolved "https://registry.nlark.com/source-map-support/download/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
+  integrity sha1-EhZgifj15ejFaSazd2Mzkt0stsk=
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map-support@~0.5.12, source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://registry.nlark.com/source-map-support/download/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=

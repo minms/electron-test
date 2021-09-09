@@ -6,7 +6,11 @@
   "author": "minms <master@minms.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build:linux": "quasar build -m electron --target linux",
+    "build:win32": "quasar build -m electron --target win",
+    "build:mac": "quasar build -m electron mac -b builder",
+    "build:all": "quasar build -m electron -T all"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
