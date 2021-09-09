@@ -12,7 +12,14 @@ install:
 
 script:
   - yarn build:win32
-  
+
 branches:
   except:
-    - "master"
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
+
+deploy:
+  provider: pages
+  api_key: $GITHUB_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
