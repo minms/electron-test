@@ -1,12 +1,5 @@
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode10.2
-      language: node_js
-      node_js: "10"
-      env:
-        - ELECTRON_CACHE=$HOME/.cache/electron
-        - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
+language: node_js
+node_js: stable
 
 cache:
   directories:
@@ -14,9 +7,11 @@ cache:
   - $HOME/.cache/electron
   - $HOME/.cache/electron-builder
 
+install:
+  - yarn install
+
 script:
-  - |
-    yarn build:win32
+  - yarn build:win32
 branches:
   except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+    - "master"
